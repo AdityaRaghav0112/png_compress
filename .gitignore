@@ -76,9 +76,8 @@ coverage.xml
 .DS_Store
 Thumbs.db
 
-# PNG outputs and test images
-*.png
+# Exclude .cursor folder
+.cursor/
+
+# Output directory (but not PNG files)
 outputs/
-compressed.png
-comp.png
-zopfli.png
