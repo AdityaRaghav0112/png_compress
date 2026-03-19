@@ -2,7 +2,7 @@ import subprocess
 from pathlib import Path
 
 input_file = Path("inputs/input.png")
-output_file = Path("outputs/pico_output.png")
+output_file = Path("outputs/quant_output.png")
 
 # Make sure the outputs folder exists (not the file itself)
 output_file.parent.mkdir(parents=True, exist_ok=True)

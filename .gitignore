@@ -69,6 +69,9 @@ coverage.xml
 # VS Code
 .vscode/
 
+# Cursor
+.cursor
+
 # OS files
 .DS_Store
 Thumbs.db
